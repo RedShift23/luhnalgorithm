@@ -17,5 +17,5 @@ def luhnteorem(card_number):
         toplam += sum(kartinrakamlari(d*2))
     return toplam %10
 
-print("Gecerli") if luhnteorem("28961216094")==0 else print("Gecersiz")
+print("Gecerli") if luhnteorem("card_number")==0 else print("Gecersiz")
     
